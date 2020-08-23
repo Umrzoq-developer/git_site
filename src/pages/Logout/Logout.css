@@ -1,0 +1,54 @@
+.LoggedOut{
+    margin: 50px 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 200px 10px 200px;
+    background-image: url("../../assets/logout.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.about {
+    margin-right: 10px;
+    flex: 1;
+}
+
+.tabs {
+    flex: 2;
+}
+
+.login, .signUp{
+    border: none;
+    color: #ff710a;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.login:visited, .signUp:visited {
+    color: red;
+}
+
+.login:active, .signUp:active{
+    color: red;
+}
+
+.login {
+    margin-right: 100px;
+}
+
+.signUp {
+
+}
+
+.tabPanels {
+    margin-top: 20px;
+}
